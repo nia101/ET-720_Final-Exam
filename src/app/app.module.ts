@@ -40,6 +40,7 @@ import { FngAccordionComponent } from './fng-accordion/fng-accordion.component';
 import { GraphicDesignComponent } from './graphic-design/graphic-design.component';
 import { PortfolioLightboxComponent } from './portfolio-lightbox/portfolio-lightbox.component';
 import { DigitalArtComponent } from './digital-art/digital-art.component';
+import { IndesignComponent } from './indesign/indesign.component';
 
 @NgModule({
   imports: [
@@ -71,7 +72,8 @@ import { DigitalArtComponent } from './digital-art/digital-art.component';
     FngAccordionComponent,
     GraphicDesignComponent,
     PortfolioLightboxComponent,
-    DigitalArtComponent
+    DigitalArtComponent,
+    IndesignComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
