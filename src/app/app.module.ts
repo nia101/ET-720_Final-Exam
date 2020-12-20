@@ -41,6 +41,7 @@ import { GraphicDesignComponent } from './graphic-design/graphic-design.componen
 import { PortfolioLightboxComponent } from './portfolio-lightbox/portfolio-lightbox.component';
 import { DigitalArtComponent } from './digital-art/digital-art.component';
 import { IndesignComponent } from './indesign/indesign.component';
+import { IllustrationsComponent } from './illustrations/illustrations.component';
 
 @NgModule({
   imports: [
@@ -59,7 +60,8 @@ import { IndesignComponent } from './indesign/indesign.component';
       { path: 'shipping', component: ShippingComponent },
       { path: 'graphic', component: GraphicDesignComponent },
       { path: 'digital art', component: DigitalArtComponent },
-       { path: 'indesign', component: IndesignComponent },
+      { path: 'indesign', component: IndesignComponent },
+       { path: 'illustrations', component: IllustrationsComponent },
     ])
   ],
   declarations: [
@@ -74,7 +76,8 @@ import { IndesignComponent } from './indesign/indesign.component';
     GraphicDesignComponent,
     PortfolioLightboxComponent,
     DigitalArtComponent,
-    IndesignComponent
+    IndesignComponent,
+    IllustrationsComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
