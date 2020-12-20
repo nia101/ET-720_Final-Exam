@@ -128,6 +128,15 @@
       
     </li>
 
+
+     <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      
+      <a routerLink="/paintings" class="button fancy-button">
+        <i class="material-icons">paintings</i>Paintings
+      </a>
+      
+    </li>
+
   </ul>
   <button class="close-button" aria-label="Close Menu" aria-controls="offCanvasMenu" type="button" (click)="offcanvasRight.hide()">
     <span aria-hidden="true">×</span>
