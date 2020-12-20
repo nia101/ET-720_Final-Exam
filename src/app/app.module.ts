@@ -59,6 +59,7 @@ import { IndesignComponent } from './indesign/indesign.component';
       { path: 'shipping', component: ShippingComponent },
       { path: 'graphic', component: GraphicDesignComponent },
       { path: 'digital art', component: DigitalArtComponent },
+       { path: 'indesign', component: IndesignComponent },
     ])
   ],
   declarations: [
