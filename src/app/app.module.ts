@@ -57,7 +57,7 @@ import { DigitalArtComponent } from './digital-art/digital-art.component';
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
       { path: 'graphic', component: GraphicDesignComponent },
-      { path: 'digital', component: DigitalArtComponent },
+      { path: 'digital art', component: DigitalArtComponent },
     ])
   ],
   declarations: [
